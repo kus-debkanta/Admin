@@ -1,0 +1,145 @@
+.formContainer{
+    position: absolute;
+    margin: auto;
+    left: 10%;
+    top: 150px;
+    width: 80%;
+    height: fit-content;
+    display: block;
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+.formContainer:hover{
+    -webkit-animation: fadein 1s;
+       -moz-animation: fadein 1s;
+        -ms-animation: fadein 1s;
+         -o-animation: fadein 1s;
+            animation: fadein 1s;
+}
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+.formContainer h2{
+    margin-top: 0px;
+    text-align: left;
+    font-weight: 200;
+    border-radius: 10px 10px 0px 0px;
+    height: 50px;
+    padding-left: 10px;
+    /* background: -webkit-linear-gradient(#ed6060, #409dde);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-color: rgb(227, 227, 227); */
+    background: -webkit-radial-gradient(
+    circle,
+    rgba(13, 8, 96, 1) 0%,
+    rgba(9, 9, 121, 1) 21%,
+    rgba(6, 84, 170, 1) 51%,
+    rgb(137, 233, 180) 100%
+ );
+    color: white;
+}
+.underline{
+    width: 100%;
+    height: 0.5px;
+    background-color: rgb(82, 82, 82);
+    transform: translate(0px,-10px);
+}
+.formContainer form{
+    margin-top: 20px;
+    padding: 20px;
+    background: -webkit-radial-gradient(
+    circle,
+    rgb(78, 74, 151) 0%,
+    rgb(114, 114, 221) 21%,
+    rgb(86, 147, 212) 51%,
+    rgb(213, 242, 226) 100%
+ );
+    border-radius: 10px;
+    height: 400px;
+}
+.formContainer form::before{
+    content: "";
+    width: 100%;
+    height: 2px;
+    background-color: grey;
+    color: grey;
+}
+.formContainer form label{
+   float: left;
+   font-size: 16px;
+   font-weight: 400;
+}
+#save{
+    width: 100px;
+    height: 40px;
+    font-size: 16px;
+    position: absolute;
+    top: 410px;
+    left: 400px;
+}
+#edit{
+    width: 100px;
+    height: 40px;
+    font-size: 16px;
+    position: absolute;
+    top: 410px;
+    left: 400px;
+}
+.form-group img{
+    width: 160px;
+    height: 100px;
+    position: absolute;
+    left: 50px;
+    top: 380px;
+    border-radius: 10px;
+}
+.arrow{
+    content: "";
+    height: 20px;
+    width: 20px;
+    background-color: #fefefe;
+    position: absolute;
+    top: 369px;
+    left: 63px;
+    display: block;
+    transform: rotate(45deg);
+    transition: 5s ease-in-out;
+}
+.upload{
+    position: absolute;
+    right: 20%;
+    top: 400px;
+}
+.upload i{
+    margin-left: 8px;
+}
+.Upload{
+    width: 200px;
+    position: relative;
+    left: 580px;
+    top: 20px;
+}
+.Upload input{
+  border: none;
+  width: fit-content;
+}
+.Upload button{
+    margin-top: 10px;
+}

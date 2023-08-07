@@ -1,0 +1,141 @@
+.tableContent {
+    position: absolute;
+    margin: auto;
+    left: 10%;
+    top: 150px;
+    width: 80%;
+    height: fit-content;
+    display: block;
+}
+
+.formViewButton {
+    background-color: rgb(241, 201, 59);
+    float: left;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.tableContent button:active {
+    border: none;
+}
+
+.tableContent table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tableContent tr {
+    border-bottom: 1px solid rgb(190, 190, 190);
+    border-radius: 20px;
+}
+
+.tableContent table,
+tr,
+th,
+td {
+    border-collapse: collapse;
+    height: 50px;
+}
+
+.tableContent table thead {
+    height: 50px;
+}
+
+.tableContent table thead tr th {
+    text-align: center;
+    margin: auto;
+    font-size: 18px;
+}
+
+.tableContent table thead th td {
+    margin: auto;
+    text-align: center;
+}
+
+.tableContent table tr:nth-child(odd) {
+    background-color: #9e067d;
+    height: 50px;
+}
+
+.tableContent table tr:nth-child(even) {
+    background-color: #067d9e;
+}
+
+/* .tableContent table tr:nth-child(3) {
+    background-color: #5b9609;
+}
+
+.tableContent table tr:nth-child(4) {
+    background-color: #6e0996;
+}
+.tableContent table tr:nth-child(5) {
+    background-color: #092f96;
+}
+.tableContent table tr:nth-child(6) {
+    background-color: #bdbd09;
+} */
+.tableContent table th {
+    color: white;
+    background-color: gray;
+}
+
+.tableContent table td {
+    color: white;
+}
+
+.tableContent table td i {
+    margin-right: 20px;
+    font-size: 20px;
+    justify-content: center;
+}
+
+.tableContent table td i:hover {
+    cursor: pointer;
+}
+.tableContent table tbody td i{
+    color: white;
+}
+.deleteAlert{
+    width: 350px;
+    height: 150px;
+    position: absolute;
+    top: -30px;
+    left: 230px;
+    background-color: gray;
+    border-radius: 10px;
+    display: block;
+}
+.alertDiv{
+    margin: auto;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 20px;
+}
+.deleteAlert div:first-child{
+    margin-top: 0px;
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    position: relative;
+    left: 0px;
+}
+.deleteAlert button{
+    width: 80px;
+    height: 40px;
+}
+.buttons-area{
+    margin-top: 10px;
+    justify-content: space-around;
+    align-items: center;
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    position: relative;
+    left: 0px;
+}
+.deleteAlert i{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 10000000;
+}

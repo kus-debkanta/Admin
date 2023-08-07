@@ -1,0 +1,118 @@
+.countryPostContainer{
+    position: absolute;
+    margin: auto;
+    left: 10%;
+    top: 150px;
+    width: 80%;
+    height: fit-content;
+    display: block;
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+.countryPostContainer:hover{
+    -webkit-animation: fadein 1s;
+       -moz-animation: fadein 1s;
+        -ms-animation: fadein 1s;
+         -o-animation: fadein 1s;
+            animation: fadein 1s;
+}
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+.countryPostContainer h2{
+    margin-top: 0px;
+    text-align: left;
+    font-weight: 200;
+    border-radius: 10px 10px 0px 0px;
+    height: 50px;
+    padding-left: 10px;
+    background: -webkit-radial-gradient(
+    circle,
+    rgba(13, 8, 96, 1) 0%,
+    rgba(9, 9, 121, 1) 21%,
+    rgba(6, 84, 170, 1) 51%,
+    rgb(137, 233, 180) 100%
+ );
+    color: white;
+}
+.underline{
+    width: 100%;
+    height: 0.5px;
+    background-color: rgb(82, 82, 82);
+    transform: translate(0px,-10px);
+}
+.countryPostContainer form{
+    margin-top: 20px;
+    padding: 20px;
+    background: -webkit-radial-gradient(
+    circle,
+    rgb(78, 74, 151) 0%,
+    rgb(114, 114, 221) 21%,
+    rgb(86, 147, 212) 51%,
+    rgb(213, 242, 226) 100%
+ );
+    border-radius: 10px;
+    height: 180px;
+    display: block;
+}
+.countryPostContainer form::before{
+    content: "";
+    width: 100%;
+    height: 2px;
+    background-color: grey;
+    color: grey;
+}
+.countryPostContainer form label{
+   float: left;
+   font-size: 16px;
+   font-weight: 400;
+}
+#countrySave{
+    width: 100px;
+    height: 40px;
+    font-size: 16px;
+    position: absolute;
+    left: 400px;
+    transform: translate(0px,-160px);
+}
+#city{
+    margin-left: 150px;
+}
+.statePostContainer form{
+    margin-top: 20px;
+    padding: 20px;
+    background: -webkit-radial-gradient(
+    circle,
+    rgb(78, 74, 151) 0%,
+    rgb(114, 114, 221) 21%,
+    rgb(86, 147, 212) 51%,
+    rgb(213, 242, 226) 100%
+ );
+    border-radius: 10px;
+    height: 360px;
+    display: block;
+}
+#stateSave{
+    width: 100px;
+    height: 40px;
+    font-size: 16px;
+    position: absolute;
+    left: 400px;
+    transform: translate(0px,20px);
+}

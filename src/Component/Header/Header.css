@@ -1,0 +1,384 @@
+.headerContent {
+    width: 100%;
+    height: 120px;
+    position: fixed;
+    top: 0px;
+    z-index: 100000;
+    background-color: #fff;
+}
+
+/* Upper Nav Start */
+.upperNav {
+    justify-content: space-between;
+    display: flex;
+    border-bottom: 1px solid rgb(222, 222, 222);
+    height: 55%;
+}
+
+.upperNav ul {
+    list-style: none;
+    margin-top: 20px;
+}
+
+.upperNav ul:hover {
+    cursor: pointer;
+}
+
+.firstNav {
+    display: flex;
+    margin-top: 10%;
+    padding-left: 30px;
+}
+
+.firstNav li {
+    margin-right: 18px;
+    height: fit-content;
+    color: grey;
+}
+
+#dash {
+    color: black;
+}
+
+.firstNav li:hover {
+    color: black;
+}
+
+.firstNav li i {
+    margin-top: 5px;
+    font-size: 18px;
+}
+
+.firstNav li p {
+    position: relative;
+    top: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 16px;
+}
+
+.lastNav {
+    display: flex;
+    padding-right: 40px;
+    margin-top: 10px;
+}
+
+.lastNav li {
+    margin-left: 18px;
+    font-size: 20px;
+}
+
+.lastNav li i {
+    color: grey;
+}
+
+.lastNav li i:hover {
+    color: black;
+}
+
+.lastNav li img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+
+/* Upper Nav Ends */
+/* DOWn Nav Start */
+.downNav {
+    display: flex;
+    padding-left: 30px;
+    border-bottom: 1px solid rgb(222, 222, 222);
+}
+
+.downNav p {
+    margin-right: 10px;
+    font-size: 16px;
+    color: grey;
+    margin-top: 10px;
+}
+
+.downNav p:first-child {
+    color: blue;
+    text-decoration: underline;
+}
+
+.downNav p:first-child:hover {
+    cursor: pointer;
+}
+
+/* Down Nav End */
+/* Hidden Div Start */
+.hiddenProfile {
+    height: fit-content;
+    width: 200px;
+    position: relative;
+    top: -39px;
+    border-radius: 20px;
+    border: 1px solid grey;
+    background-color: #fff;
+}
+
+.hiddenProfile ul {
+    list-style: none;
+    height: 100%;
+    padding-left: 0px;
+    width: 100%;
+    float: left;
+    justify-content: flex-start;
+    margin-top: 0px;
+    background-color: #fff;
+    border-radius: 20px;
+    border: 1px solid grey;
+}
+
+.hiddenProfile ul li {
+    padding-top: 3px;
+    padding-left: 30px;
+    padding-bottom: 3px;
+    text-align: start;
+    background-color: #fff;
+    display: block;
+    transform: translate(0px, 0px);
+}
+
+.hiddenProfile ul li:hover {
+    background-color: rgb(191, 191, 191);
+    cursor: pointer;
+}
+
+.hiddenProfile ul li:first-child {
+    background-color: rgb(230, 229, 229);
+    height: 35px;
+    border-radius: 5px;
+}
+
+.hiddenProfile ul li:last-child {
+    border-radius: 5px;
+}
+
+#hiddenProfile_a {
+    margin-bottom: 10px;
+}
+
+.hiddenProfile ul li a:hover {
+    text-decoration: none;
+}
+
+#hiddenProfile_a::after {
+    content: " ";
+    width: 100%;
+    height: 2px;
+    background-color: gray;
+    color: grey;
+}
+
+.hiddenProfile ul li:first-child p {
+    margin-top: 4px;
+}
+
+#hiddenProfile_p {
+    background-color: rgb(219, 218, 218);
+    height: 35px;
+}
+
+#hiddenProfile_p p {
+    margin-top: 4px;
+}
+
+.hiddenProfile ul li a {
+    color: rgb(87, 87, 87);
+    font-weight: 500;
+}
+
+.hiddenProfile ul li a i {
+    margin-right: 8px;
+}
+
+.buttons {
+    margin-left: 12px;
+    width: 30px;
+    height: 20px;
+    font-size: 13px;
+    text-align: center;
+    padding: 0px;
+}
+
+/* For Scrool Bar */
+.MainSlider {
+    width: 250px;
+    height: fit-content;
+    float: left;
+    position: absolute;
+    top: 0px;
+}
+
+.CorePart {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    background-color: #213363;
+    position: fixed;
+    width: 250px;
+    height: 70px;
+    z-index: 1000000;
+}
+
+.CorePart i {
+    color: #fff;
+}
+
+.CorePart h5 {
+    font-size: 15px;
+    color: #fff;
+    transform: translate(0px, 10px);
+}
+
+.CorePart h3 {
+    font-weight: 200;
+    padding-left: 2px;
+    /* color: rgb(6, 6, 78); */
+    color: rgb(8, 161, 212);
+    font-size: 18px;
+}
+
+.ScroolPart {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    justify-content: flex-start;
+    line-height: 50px;
+    background-color: #213555;
+    position: relative;
+    top: 70px;
+    opacity: 0.8;
+
+
+}
+
+.ScroolPart::-webkit-scrollbar {
+    width: 1rem;
+    height: 200px;
+    margin-right: 20px;
+}
+
+.ScroolPart::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: rgb(209, 207, 207);
+    height: 200px;
+    border-radius: 10px;
+}
+
+.ScroolPart::-webkit-scrollbar-thumb {
+    background-color: red;
+    border-radius: 10px;
+    height: 20%;
+    padding: 2px;
+}
+
+.ScroolPart ul {
+    width: 250px;
+    height: 100%;
+    padding-left: 0px;
+}
+
+.ScroolPart ul li {
+    display: flex;
+}
+
+.aList:hover {
+    background-color: #51697c;
+    transition: background-color .5s;
+}
+
+.ScroolPart a {
+    height: fit-content;
+    width: inherit;
+    color: #dad9d9;
+    margin-left: 20px;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.ScroolPart p {
+    width: 100%;
+    color: #dad9d9;
+    text-align: left;
+    justify-content: flex-start;
+    float: left;
+    font-weight: 700;
+    margin-left: 25px;
+    font-size: 15px;
+}
+
+.ScroolPart i:first-child {
+    /* transform: translate(20px,0px); */
+    color: #dad9d9;
+    margin-left: 30px;
+    text-align: left;
+    width: 100%;
+    font-size: 18px;
+}
+
+.Down {
+    transform: translate(-25px, 20px);
+    margin-left: 0px;
+    color: white;
+}
+
+.ScroolPart i,
+.Down:hover {
+    cursor: pointer;
+}
+
+.pList:hover {
+    background-color: #213555;
+}
+
+/* Under Li */
+.UnderLi ul li:hover {
+    background-color: #51697c;
+    cursor: pointer;
+}
+
+.UnderLi ul li a {
+    margin-left: 60px;
+}
+
+.UnderLi ul li:first-child a a {
+    margin-left: 0px;
+}
+
+.formControlUl {
+    background-color: #213555;
+    list-style: decimal;
+}
+
+.formControlUl li {
+    color: white;
+    padding-top: 3px;
+    padding-left: 60px;
+    padding-bottom: 3px;
+    text-align: left;
+    display: block;
+}
+
+.formControlUl li a {
+    text-align: left;
+    margin-left: 0px !important;
+}
+
+.formControlUl li:hover {
+    background-color: #51697c;
+    cursor: pointer;
+}
+
+#formDown {
+    transform: translate(30px, 20px);
+}
+
+.ScroolPart a:hover {
+    color: white;
+}
